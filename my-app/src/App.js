@@ -83,7 +83,7 @@ class App extends React.Component {
         highScore = {this.state.highScore}
         />
         </div>
-          <div className="container">
+          <div className="cardContainer">
           {!this.state.done ? this.renderCards() : <GameOver replay= {this.replay}/>}
           </div> 
           

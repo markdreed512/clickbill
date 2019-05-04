@@ -5,6 +5,11 @@
 }
 body{
     background-image: url(./images/hip-square.png);
-    text-align: center;
+    /* text-align: center; */
     margin: 0;
 }
+.codeContainer{
+    display: grid;
+    grid-template-columns: 11% 13% 13% 13% 13% 13% 13% 11%;
+    grid-template-rows: 10% 10% 10%;
+      }
