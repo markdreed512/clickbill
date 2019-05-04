@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.navbar{
+    width: 100%;
+    background: grey;
+    padding: 30px;
+}
+.title{
+    font-size: 50px;
+}
+.title{
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-family: 'Fontdiner Swanky', cursive;
+    /* float: left; */
+}
+.subtitle{
+    font-size: 30px;
+    margin: 0;
+    padding: 0 auto 20px auto;
+    font-family: 'Quicksand', sans-serif;
+}

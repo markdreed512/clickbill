@@ -1,0 +1,10 @@
+
+.container{
+    width: 100%;
+
+}
+body{
+    background-image: url(./images/hip-square.png);
+    text-align: center;
+    margin: 0;
+}
