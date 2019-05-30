@@ -6,7 +6,7 @@ function Score (props){
         <div>
             
             <span> High Score: {props.highScore} </span>
-            <span>Score: {props.score}</span>
+            <span id="score">Score: {props.score}</span>
         </div>
         )
 }

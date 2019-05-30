@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
 .gameOver{
     text-align: center;
-    font-size: 10vw;
+    font-size: 5vw;
     font-family: 'Fontdiner Swanky', cursive;
 }
 button{
-    width: 80vw;
+    width: 40vw;
     font-size: 30px;
     background-color: rgb(54, 228, 54);
     height: 100px;
+    margin-left: 30vw;
 }

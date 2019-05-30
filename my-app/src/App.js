@@ -7,14 +7,11 @@ import Score from "./components/Score";
 import GameOver from "./components/GameOver";
 import pics from "./pics.json";
 
-//how select pic.clicked? 
-//how increment score?
-
 class App extends React.Component {
   state = {
     pics: pics,
     score: 0,
-    highScore: 0,
+    highScore: localStorage.getItem("high_score"),
     done: false
   }
   replay = () => {
@@ -48,8 +45,12 @@ class App extends React.Component {
     })
     //if score > highScore, save highScore and replace previous highScore
     if (this.state.score > this.state.highScore) {
+      //set highscore in local storage then set state
+      // Store
+      localStorage.setItem("high_score", this.state.score);
+
       this.setState({
-        highScore: this.state.score
+        highScore: localStorage.getItem("high_score")
       })
     } 
       
@@ -69,8 +70,8 @@ class App extends React.Component {
       console.log(cards);
     return cards;
   }
-  //render runs any time state changes
   render() {
+    
     return (
       <Wrapper>
         <div className="container">
